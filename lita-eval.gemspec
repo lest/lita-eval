@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = 'lita-eval'
-  spec.version       = '0.0.1'
+  spec.version       = '0.0.2'
   spec.authors       = ['Sergey Nartimov']
   spec.email         = ['just.lest@gmail.com']
   spec.description   = %q{A Lita handler for evaluating ruby code.}
