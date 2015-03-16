@@ -10,7 +10,7 @@ module Lita
 
       def evaluate(response)
         code = response.matches[0][0]
-        response.reply Sicuro.eval("p(#{code})").to_s.strip
+        response.reply Sicuro.new(256, 256 * 32).eval("p(#{code})").to_s.strip
       rescue
         response.reply 'Sorry, I was unable to evaluate the given code.'
       end
