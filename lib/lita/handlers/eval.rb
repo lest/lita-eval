@@ -1,5 +1,4 @@
 require 'lita'
-require 'sicuro'
 
 module Lita
   module Handlers
